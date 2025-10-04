@@ -1,4 +1,4 @@
-# SS-JDSC: 単一話者による日本語構音障害音声コーパス
+# SS-JDSC: 単一話者による日本語構音障害音声コーパス / Single-speaker Japanese dysarthric speech corpus
 [English](xxx)
 
 本コーパスは，日本語の構音障害音声認識およびその関連タスクのために設計された，単一話者による読み上げ音声コーパスです．鼻咽腔閉鎖不全に伴う構音障害音声を約15時間分含んでいます．
@@ -12,7 +12,8 @@
 - `basic`: 通常音声（[JSUTコーパス BASIC5000](https://sites.google.com/site/shinnosuketakamichi/publication/jsut)）と同じ文を発話．
 - `hard`: 聞き取り困難な音素を含む発話．
 - `daily`: 日常会話に使われるフレーズを含む発話．
-音声認識評価のために，それぞれのサブセットについてテストセットリスト(`test_{basic, hard, daily}.txt`)を含んできます．
+
+音声認識評価のために，それぞれのサブセットについてテストセットリスト(`test_{basic, hard, daily}.txt`)を含んでいます．音声のフォーマットは 44.1 kHz サンプリング周波数, 16bit RIFF WAV 形式です．
 
 | サブセット | カテゴリ | 説明                               | 発話数 | 時間長 [h] |
 | --------- | -------- | --------------------------------- | ------ | -------- |
@@ -27,7 +28,7 @@
 |           | Others   | 緊急，季節，趣味                   | 399    | 0.63     |
 | 合計      | -        | -                                 | 11,502 | 15.12    |
 
-音声のフォーマットは 44.1 kHz サンプリング周波数, 16bit RIFF WAV 形式です． 
+ 
 
 ## ライセンス
 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja)
