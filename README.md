@@ -10,7 +10,7 @@ It provides 15 hours of speech data from a single Japanese male speaker with vel
 ## ダウンロード / Download
 [リンク / Link](xxx) (zip, xx.xx GB)
 
-## コーパスデザイン
+## コーパスデザイン / Corpus design
 本コーパスは 3 つのサブセットから成ります．
 - `basic`: 通常音声（[JSUTコーパス BASIC5000](https://sites.google.com/site/shinnosuketakamichi/publication/jsut)）と同じ文を発話．/ Parallel to control speech in [JSUT BASIC5000](https://sites.google.com/site/shinnosuketakamichi/publication/jsut).
 - `hard`: 聞き取り困難な音素を含む発話．/ Phoetically confusable utterances.
@@ -32,7 +32,7 @@ For speech recognition evaluation, test set lists for the subsets, `test_{basic,
 |           | Work     | 公共スペースでの会話 / Conversation in public facilities                | 721    | 1.06     |
 |           | Emotion  | 感情表現 / Emotion expression and statements                         | 414    | 0.54     |
 |           | Others   | 緊急，季節，趣味 / Urgency, seasons, or hobbies                  | 399    | 0.63     |
-| 合計 (Total)      | -        | -                                 | 11,502 | 15.12    |
+| 合計 / Total      | -        | -                                 | 11,502 | 15.12    |
 
 ## ライセンス / License
 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja)
