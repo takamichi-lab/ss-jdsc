@@ -21,7 +21,7 @@ It provides 15 hours of speech data from a single Japanese male speaker with vel
 For speech recognition evaluation, test set lists for the subsets, `test_{basic, hard, daily}.txt`, are included in the corpus. The audio format is 44.1 kHz-sampled, 16-bit encoded RIFF WAV format.
 
 
-| サブセット / Subset | カテゴリ / Category | 説明 / Description                               | 発話数 / #utts | 時間長 / Duration [h] |
+| サブセット / Subset | カテゴリ / Category | 説明 / Description                               | 発話数 / #utts | 時間長 / Dur. [h] |
 | --------- | -------- | --------------------------------- | ------ | -------- |
 | Basic     | -        | 通常音声と同じ文 / Parallel to control speech                  | 4,701  | 6.89     |
 | Hard      | CF       | 聞き取りづらい音素を含む文 / Phonemic confusion          | 2,094  | 1.84     |
