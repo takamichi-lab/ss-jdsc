@@ -37,6 +37,9 @@ For speech recognition evaluation, test set lists for the subsets, `test_{basic,
 ## 音声認識（ASR）ベンチマーク / ASR benchmark
 本コーパスを使った音声認識実験の結果です．実験の詳細は文献を参照してください．単語誤り率（WER），BERTScore，Human eval. の値は，全てのテストセットリストの結果を平均したものです．
 
+
+
+
 The table lists the results of our ASR experiments. See our paper for the details. Values are aggregated among test set lists for each of WER (word error rate), BERTScore, Human eval. 
 
 | モデル / model | WER | BERTScore | Human eval. |
@@ -46,9 +49,7 @@ The table lists the results of our ASR experiments. See our paper for the detail
 | + finetuning + LLM | 0.257 | 0.917 | 4.198 |
 
 ## 音声認識デモ / ASR demo
-https://github.com/takamichi-lab/ss-jdsc/ss-jdsc_smallen.mp4
-
-https://github.com/takamichi-lab/ss-jdsc/blob/268cfb3efa2f0ac23422e536d9982b7dd29afbd6/ss-jdsc_smallen.mp4
+https://github.com/user-attachments/assets/356a510d-21fc-4620-9cef-22b1f271e0be
 
 ## ライセンス / License
 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja)
