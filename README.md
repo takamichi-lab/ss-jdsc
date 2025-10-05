@@ -34,6 +34,20 @@ For speech recognition evaluation, test set lists for the subsets, `test_{basic,
 |           | Others   | 緊急，季節，趣味 / Urgency, seasons, or hobbies                  | 399    | 0.63     |
 | 合計 / Total      | -        | -                                 | 11,502 | 15.12    |
 
+## 音声認識（ASR）ベンチマーク / ASR benchmark
+本コーパスを使った音声認識実験の結果です．実験の詳細は文献を参照してください．単語誤り率（WER），BERTScore，Human eval. の値は，全てのテストセットリストの結果を平均したものです．
+
+The table lists the results of our ASR experiments. See our paper for the details. Values are aggregated among test set lists for each of WER (word error rate), BERTScore, Human eval. 
+
+| モデル / model | WER | BERTScore | Human eval. |
+| -------------- | --- | --------- | ----------- |
+| Whisper large v3 (no finetuning) | 0.934 | 0.654 | 1.217 |
+| + finetuning (13.0h) | 0.283 | 0.915 | 3.748 |
+| + finetuning + LLM | 0.257 | 0.917 | 4.198 |
+
+## 音声認識デモ / ASR demo
+<video src="ss-jdsc.mp4" controls="true"></video>
+
 ## ライセンス / License
 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja)
 
