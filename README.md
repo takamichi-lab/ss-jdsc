@@ -46,7 +46,7 @@ The table lists the results of our ASR experiments. See our paper for the detail
 | + finetuning + LLM | 0.257 | 0.917 | 4.198 |
 
 ## 音声認識デモ / ASR demo
-<div><video controls src="https://github.com/takamichi-lab/ss-jdsc/ss-jdsc_smallen.mp4" muted="false"></video></div>
+https://github.com/takamichi-lab/ss-jdsc/ss-jdsc_smallen.mp4
 
 ## ライセンス / License
 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja)
