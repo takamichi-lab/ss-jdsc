@@ -48,6 +48,8 @@ The table lists the results of our ASR experiments. See our paper for the detail
 ## 音声認識デモ / ASR demo
 https://github.com/takamichi-lab/ss-jdsc/ss-jdsc_smallen.mp4
 
+https://github.com/takamichi-lab/ss-jdsc/blob/268cfb3efa2f0ac23422e536d9982b7dd29afbd6/ss-jdsc_smallen.mp4
+
 ## ライセンス / License
 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja)
 
