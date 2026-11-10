@@ -5,10 +5,8 @@
 SS-JDSC is the corpus of Japanese dysarthric speech designed for research on automatic speech recognition and related tasks. 
 It provides 15 hours of speech data from a single Japanese male speaker with velopharyngeal insufficiency (VPI).
 
-[サンプル / Sample](xxx)
-
 ## ダウンロード / Download
-[リンク / Link](xxx) (zip, xx.xx GB)
+[huggingface](https://huggingface.co/datasets/JDSC-Project/SS-JDSC)
 
 ## コーパスデザイン / Corpus design
 本コーパスは 3 つのサブセットから成ります．
